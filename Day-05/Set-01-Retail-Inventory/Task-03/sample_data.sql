@@ -55,3 +55,31 @@ VALUES
 ('Office Supplies'),
 ('Lighting'),
 ('Personal Care');
+
+INSERT INTO Warehouse (WarehouseName)
+VALUES
+('Mumbai Warehouse'),
+('Delhi Warehouse'),
+('Pune Warehouse'),
+('Kochi Warehouse'),
+('Coimbatore Warehouse'),
+('Mysore Warehouse'),
+('Kolkata Warehouse');
+
+INSERT INTO Product (SKU, ProductName, CategoryID, SupplierID)
+VALUES
+('P106', 'Smartphone', 5, 4),
+('P107', 'USB Cable', 6, 5),
+('P108', 'Microwave Oven', 7, 6),
+('P109', 'Office Desk', 8, 7),
+('P110', 'LED Bulb', 9, 8);
+
+INSERT INTO Inventory (SKU, WarehouseID, Quantity, ReorderLevel)
+VALUES
+('P106', 4, 18, 5),
+('P107', 5, 45, 10),
+('P108', 6, 12, 4),
+('P109', 7, 20, 6);
+
+INSERT INTO Product (SKU, ProductName, CategoryID, SupplierID)
+VALUES ('P999', 'Wireless Speaker', 1, 999);

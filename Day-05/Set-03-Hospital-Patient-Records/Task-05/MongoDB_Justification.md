@@ -39,3 +39,5 @@ Example:
 This retrieves the clinical records of patients diagnosed with hypertension.
 
 ## 5. Conclusion
+
+MongoDB provides flexibility for storing clinical notes with different structures. JSON Schema validation maintains the required fields while allowing additional medical information to vary between documents.
